@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <link rel="stylesheet" href="components/loader.css">
+    <script src="components/loader.js"></script>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+
+</head>
+<body>
+
+    <div class="fundo-video">
+			<video class="video" autoplay loop muted>
+				<source src="components/imagensevideo/video-mario.mp4" type="video/mp4" />
+			</video>
+		</div>
+    
+<header class="cabecalho">
+			<nav>
+				<ul class="menu">
+					<li><a href="./www/pagina.html">Home</a></li>
+					<li><a href="#">Detalhes</a></li>
+				</ul>
+			</nav>
+		</header>
+
+      <div class="texto">
+              <center> 
+                   <span class="texto01">  Formulário de Cadastro </span> 
+              </center>
+    </div>
+
+<br>
+
+<center>
+    
+ <span class="texto03"> --------------------------------------------- </span> 
+
+  <br> <br>  <span class="texto01"> Prencha todos os campos do  fórmulario: </span> 
+</center>
+
+<br> <br>
+
+<center>
+    <span class="texto02">  Nome: </span> 
+	<input type="text" placeholder="Digite seu nome" id="insertnome"> <br><br>
+
+    <span class="texto02">  Email: </span> 
+	<input type="text" placeholder="Digite seu email" id="email"> <br><br>
+
+     <span class="texto02">  Tipo de jogo: </span> 
+	<input type="text" placeholder="Digite o tipo de jogo" id="jogo"> <br><br>
+
+     <span class="texto02">  Nome de jogo: </span> 
+	<input type="text" placeholder="Digite o nome do jogo" id="nomejogo"> <br><br> 
+
+    <br> <button class="botao-formulario" value="Cadastrar" onclick="cadastrar()"> Cadastrar </button>
+
+<br><br>  <span class="texto03"> --------------------------------------------- </span> 
+
+<br> <br>  <button class="botao-formulario" onclick="exibir()"> Exibir Cadastro anterior </button>
+
+
+    <h1 id="exibirCadastro"> </h1>  <br> <br> 
+
+<button class="botao-formulario" onclick="exibirtodos()"> Exibir todos os cadastros </button>
+
+<h1 id="exibirTodosCadastro"> </h1>  <br> <br> 
+
+ <button class="botao-formulario" onclick="limpar()"> Limpar </button>
+
+</center>
+
+<script src="./js/main.js"></script>
+
+</body>
+</html>
+
