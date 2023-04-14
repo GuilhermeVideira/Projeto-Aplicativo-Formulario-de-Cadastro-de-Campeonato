@@ -4,12 +4,12 @@ function exibir(){
 
     var nome, email, jogo, jogonome
 
-    nomeInserido = document.getElementById('insertnome').value
+    nome = document.getElementById('insertnome').value
     email = document.getElementById('email').value
     jogo = document.getElementById('jogo').value
     jogonome = document.getElementById('nomejogo').value
 
-    historico = "Nome: " + nomeInserido, + "Email: " + email, "Tipo de jogo: " + jogo , "Nome do jogo: " + jogonome; 
+    historico = "Nome: " + nome, + "Email: " + email, "Tipo de jogo: " + jogo , "Nome do jogo: " + jogonome; 
 
     document.getElementById('exibirCadastro').value = historico;
 
