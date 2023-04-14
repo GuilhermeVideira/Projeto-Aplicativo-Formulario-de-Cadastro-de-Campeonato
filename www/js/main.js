@@ -4,12 +4,12 @@ function exibir(){
 
     var nome, email, jogo, jogonome
 
-    nome = document.getElementById('insertnome').value
+    nomeInserido = document.getElementById('insertnome').value
     email = document.getElementById('email').value
     jogo = document.getElementById('jogo').value
     jogonome = document.getElementById('nomejogo').value
 
-    historico = "Nome: " + nome, + "Email: " + email, "Tipo de jogo: " + jogo , "Nome do jogo: " + jogonome; 
+    historico = "Nome: " + nomeInserido, + "Email: " + email, "Tipo de jogo: " + jogo , "Nome do jogo: " + jogonome; 
 
     document.getElementById('exibirCadastro').value = historico;
 
@@ -32,7 +32,7 @@ function exibirtodos(){
     jogosvetor.push(jogoDigitado)
     jogosnomevetor.push(jogonomeDigitado)
     
-  cadastros = (nomesvetor[qt]), (emailsvetor[qt]), (jogosvetor[qt]), (jogosnomevetor[qt])
+   cadastros = (nomesvetor[qt]), (emailsvetor[qt]), (jogosvetor[qt]), (jogosnomevetor[qt])
 
     document.getElementById('exibirTodosCadastro').value = cadastros
 
