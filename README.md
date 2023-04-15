@@ -20,5 +20,7 @@ Html / Css / JavaScript
 
 
 
-<img align="center" alt="Imagem do aplicativo." src="https://github.com/GuilhermeVideira/Projeto-Aplicativo-de-Formulario-de-Cadastro-de-Campeonato/blob/master/Imagens/Tela01.png?raw=true"> 
+<img align="center" alt="Imagem do aplicativo." height="500" src="https://github.com/GuilhermeVideira/Projeto-Aplicativo-de-Formulario-de-Cadastro-de-Campeonato/blob/master/Imagens/Tela01.png?raw=true"> <img align="center" alt="Imagem do aplicativo." height="500" src="https://github.com/GuilhermeVideira/Projeto-Aplicativo-de-Formulario-de-Cadastro-de-Campeonato/blob/master/Imagens/Tela02.png?raw=true"> 
+
+
 
