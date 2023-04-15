@@ -5,7 +5,7 @@ Este seguinte projeto é uma atividade prática de programação de aplicativos 
 O projeto desenvolvido é um aplicativo de formulário de cadastro de um campeonato de jogos online, de games, e de tabuleiros. 
 
 O aplicativo possui uma tela inicial informativa sobre o cadastro do campeonato, e uma tela de cadastro para o usuário. 
-E em todo cadastro é emitido um alerta de confirmação do cadastro com o nome. (Sendo uma prática da utilização de vetor na linguagem de programação JavaScript) e também pode ser consultado apenas último cadastro realizado ou todos os cadastros realizados.
+E em todo cadastro é emitido um alerta de confirmação do cadastro com o nome. (Sendo uma prática da utilização de vetor na linguagem de programação JavaScript) e também pode ser consultado apenas o último cadastro realizado ou todos os cadastros realizados.
 
 #
 
