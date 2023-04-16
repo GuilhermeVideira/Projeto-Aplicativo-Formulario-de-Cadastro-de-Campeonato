@@ -1,6 +1,6 @@
 # Projeto Aplicativo de Formulário de Cadastro
 
-Este seguinte projeto é uma atividade prática de programação de aplicativos mobile, do curso de desenvolvimento de sistemas que estou cursando autualmente.
+Este seguinte projeto é uma atividade prática de programação de aplicativos mobile, do curso de desenvolvimento de sistemas que estou cursando atualmente.
 
 O projeto desenvolvido é um aplicativo de formulário de cadastro de um campeonato de jogos online, de games, e de tabuleiros. 
 
